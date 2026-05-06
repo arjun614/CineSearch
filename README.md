@@ -1,16 +1,41 @@
-# React + Vite
+🎬 CineSearch
+CineSearch is a dynamic web application built with React and Vite that allows users to search for their favorite movies and TV series. It fetches real-time data from the OMDb API to provide instant details including posters, release years, and media types.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Real-time Search: Instantly find movies or series by title.
 
-Currently, two official plugins are available:
+Dynamic Data Fetching: Integrates with the OMDb API for up-to-date information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Responsive UI: Clean and modern movie grid layout.
 
-## React Compiler
+Smart Poster Handling: Automatically provides a "No Poster" placeholder if the official artwork is missing.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚀 Tech Stack
+Frontend: React.js
 
-## Expanding the ESLint configuration
+Build Tool: Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling: CSS3 (Flexbox/Grid)
+
+API: OMDb API
+
+🛠️ Installation & Setup
+Clone the repository:
+
+Bash
+git clone https://github.com/your-username/CineSearch.git
+
+2. **Navigate to the project folder:**
+   ```bash
+   cd CineSearch
+Install dependencies:
+
+Bash
+npm install
+Run the development server:
+
+Bash
+npm run dev
+🔑 Environment Variables
+To run this project, you will need to add an API key from OMDb API to your fetch requests or a .env file:
+VITE_OMDB_API_KEY=your_api_key_here
