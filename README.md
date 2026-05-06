@@ -1,4 +1,5 @@
 🎬 CineSearch
+
 CineSearch is a dynamic web application built with React and Vite that allows users to search for their favorite movies and TV series. It fetches real-time data from the OMDb API to provide instant details including posters, release years, and media types.
 
 ✨ Features
