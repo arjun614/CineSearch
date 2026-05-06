@@ -1,8 +1,8 @@
 import { useState } from "react"
-import SearchBar from "./components/SearchBar"
-import MovieCard from "./components/MovieCard"
-import MovieModel from "./components/MovieModel"
-import Loader from "./components/Loader"
+import SearchBar from "./Components/SearchBar"
+import MovieCard from "./Components/MovieCard"
+import MovieModel from "./Components/MovieModel"
+import Loader from "./Components/Loader"
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
