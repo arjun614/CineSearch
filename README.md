@@ -21,21 +21,15 @@ API: OMDb API
 
 🛠️ Installation & Setup
 Clone the repository:
-
-Bash
-git clone https://github.com/your-username/CineSearch.git
-
+1. git clone https://github.com/your-username/CineSearch.git
 2. **Navigate to the project folder:**
    ```bash
    cd CineSearch
-Install dependencies:
+3. Install dependencies:
+   npm install
+4. Run the development server:
+   npm run dev
 
-Bash
-npm install
-Run the development server:
-
-Bash
-npm run dev
 🔑 Environment Variables
 To run this project, you will need to add an API key from OMDb API to your fetch requests or a .env file:
 VITE_OMDB_API_KEY=your_api_key_here
