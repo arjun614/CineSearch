@@ -79,7 +79,7 @@ function App() {
                 ))}
             </div>
 
-            {/* replaced inline modal with MovieModal component */}
+           
             {selectedMovie && (
                 <MovieModel
                     movie={selectedMovie}
